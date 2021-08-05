@@ -24,6 +24,7 @@ class Block{
            push();
            this.Visiblity = this.Visiblity - 5;
            tint(255,this.Visiblity);
+             imageMode(CENTER);
            image(this.image, pos.x, pos.y,this.width, this.height);
            pop();}
       }
